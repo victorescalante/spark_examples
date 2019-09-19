@@ -1,0 +1,5 @@
+sbt package
+
+../../Desktop/spark-2.4.4-bin-hadoop2.7/bin/spark-submit --class "Assignment" target/scala-2.12/simple-project_2.12-0.1.jar
+
+spark-2.4.4-bin-hadoop2.7/bin/spark-submit pi.py
